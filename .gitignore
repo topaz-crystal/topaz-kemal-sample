@@ -1,8 +1,8 @@
 /doc/
 /libs/
 /lib/
-/bin/
-/db/
+/bin/*
+/db/*
 /.crystal/
 /.shards/
 

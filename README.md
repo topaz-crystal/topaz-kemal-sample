@@ -11,8 +11,8 @@ This is a sample project to show how Topaz works in Kemal.
 ```
 $ git clone https://github.com/tbrand/topaz-kemal-sample
 $ cd topaz-kemal-sample
-$ shards build
-$ ./bin/topaz-kemal-sample
+$ crystal run src/migration/migration.cr
+$ crystal run src/topaz-kemal-sample.cr
 ```
 
 
