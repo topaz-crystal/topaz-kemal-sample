@@ -1,31 +1,25 @@
-# topaz-kemal-sample
+# A sample for Topaz in Kemal
 
-TODO: Write a description here
+This is a sample project to show how Topaz works in Kemal.  
+<img src="https://cloud.githubusercontent.com/assets/3483230/20856901/fad1885e-b95f-11e6-848d-c46e33d8290e.png" width="100px">[Topaz](https://github.com/tbrand/topaz) is a simple and useful db wrapper for Crystal.  
+<img src="https://avatars3.githubusercontent.com/u/15321198?v=3&s=200" width="100px">[Kemal](https://github.com/kemalcr/kemal) is a defacto standard web framework for Crystal.  
 
 ## Installation
 
-
-TODO: Write installation instructions here
+```
+$ git clone https://github.com/tbrand/topaz-kemal-sample
+$ cd topaz-kemal-sample
+$ shards build
+$ ./bin/topaz-kemal-sample
+```
 
 
 ## Usage
 
+It looks like
 
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/topaz-kemal-sample/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+<img width="500" src="https://cloud.githubusercontent.com/assets/3483230/20859500/92259346-b9a4-11e6-80b0-fc573d9aae9c.png">
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) taicsuzu - creator, maintainer
+- [tbrand](https://github.com/[tbrand]) Taichiro Suzuki - creator, maintainer
