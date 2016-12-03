@@ -1,9 +1,11 @@
 /doc/
 /libs/
 /lib/
-/bin/*
-/db/*
 /.crystal/
 /.shards/
 
+/bin/*
+!/bin/.gitkeep
 
+/db/*
+!/db/.gitkeep
