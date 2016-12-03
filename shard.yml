@@ -1,0 +1,20 @@
+name: topaz-kemal-sample
+version: 0.1.0
+
+authors:
+  - taicsuzu <taicsuzu@yahoo-corp.jp>
+
+targets:
+  topaz-kemal-sample:
+    main: src/topaz-kemal-sample.cr
+
+crystal: 0.20.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+  topaz:
+    github: tbrand/topaz

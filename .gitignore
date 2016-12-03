@@ -1,0 +1,9 @@
+/doc/
+/libs/
+/lib/
+/bin/
+/db/
+/.crystal/
+/.shards/
+
+

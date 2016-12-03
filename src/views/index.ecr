@@ -1,0 +1,29 @@
+
+<div class="list-group">
+  
+  <% tweets.each do |t| %>
+  
+  <form action="/" method="post" class="list-group-item">
+
+    <div class="input-group">
+      
+      <input type="hidden" name="id" value="<%= t.id %>"/>
+      <input type="hidden" name="_method" value="PUT">
+      
+      <button class="btn btn-default" type="submit" style="margin-right:20px;" name="action" value="delete">
+	<span class="glyphicon glyphicon-remove"></span>
+      </button>
+
+      <button class="btn btn-default" type="submit" style="margin-right:20px;" name="action" value="like">
+	<span class="glyphicon glyphicon-heart"></span>
+      </button>
+
+      <span class="badge" style="margin-right:20px"><%= t.likes %></span>
+
+      <%= t.content %>
+      
+    </div>
+  </form>
+  
+  <% end %>
+</div>
