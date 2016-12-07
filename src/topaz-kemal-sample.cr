@@ -15,6 +15,12 @@ class WebServer
     render_tweets
   end
 
+  get "/jsons/:id" do |env|
+    env.response.content_type = "application/json"
+    tweet = Tweet.find(env.params.url["id"])
+    tweet.json
+  end
+
   post "/" do |env|
     Tweet.create(env.params.body["tweet"], 0.to_i64)
     render_tweets

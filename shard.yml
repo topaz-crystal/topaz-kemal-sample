@@ -8,7 +8,7 @@ targets:
   topaz-kemal-sample:
     main: src/topaz-kemal-sample.cr
 
-crystal: 0.20.0
+crystal: 0.20.1
 
 license: MIT
 
@@ -17,4 +17,5 @@ dependencies:
     github: kemalcr/kemal
     branch: master
   topaz:
-    github: tbrand/topaz
+    github: topaz-crystal/topaz
+    branch: master
