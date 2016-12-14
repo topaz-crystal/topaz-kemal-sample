@@ -6,7 +6,7 @@ shards:
 
   kemal:
     github: kemalcr/kemal
-    commit: 166fb96f3477234f3b3383babbd6df3c25fa3b95
+    commit: ac8ec0a07b5929dc1656006a135e08a2a2732f5e
 
   kilt:
     github: jeromegn/kilt
@@ -18,7 +18,11 @@ shards:
 
   mysql:
     github: crystal-lang/crystal-mysql
-    version: 0.2.0
+    version: 0.2.2
+
+  pg:
+    github: will/crystal-pg
+    version: 0.12.0
 
   radix:
     github: luislavena/radix
@@ -34,5 +38,5 @@ shards:
 
   topaz:
     github: topaz-crystal/topaz
-    commit: d59e95282c303f0e0be89a05adbb69d303f606e3
+    commit: 44774216a09085cf012626e5c203309fb286d4d2
 

@@ -2,7 +2,7 @@ require "topaz"
 
 class Tweet < Topaz::Model
   columns(
-    {name: content, type: String},
-    {name: likes,   type: Int64}
+    content: String,
+    likes:   Int64
   )
 end
