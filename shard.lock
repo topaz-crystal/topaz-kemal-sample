@@ -2,11 +2,11 @@ version: 1.0
 shards:
   db:
     github: crystal-lang/crystal-db
-    version: 0.2.2
+    version: 0.3.3
 
   kemal:
     github: kemalcr/kemal
-    commit: ac8ec0a07b5929dc1656006a135e08a2a2732f5e
+    version: 0.17.4
 
   kilt:
     github: jeromegn/kilt
@@ -18,11 +18,11 @@ shards:
 
   mysql:
     github: crystal-lang/crystal-mysql
-    version: 0.2.2
+    version: 0.3.1
 
   pg:
     github: will/crystal-pg
-    version: 0.12.0
+    version: 0.13.1
 
   radix:
     github: luislavena/radix
@@ -34,9 +34,9 @@ shards:
 
   sqlite3:
     github: crystal-lang/crystal-sqlite3
-    version: 0.7.0
+    version: 0.8.1
 
   topaz:
     github: topaz-crystal/topaz
-    commit: 44774216a09085cf012626e5c203309fb286d4d2
+    version: 0.2.2
 

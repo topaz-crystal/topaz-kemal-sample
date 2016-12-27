@@ -18,7 +18,7 @@ class WebServer
   get "/jsons/:id" do |env|
     env.response.content_type = "application/json"
     tweet = Tweet.find(env.params.url["id"])
-    tweet.json
+    tweet.to_json
   end
 
   post "/" do |env|
@@ -44,9 +44,9 @@ class WebServer
 end
 
 Topaz::Log.debug_mode(false)
-Topaz::Log.show_query(true)
 
 Topaz::Db.setup("sqlite3://./db/sample.db")
+Topaz::Db.show_query(true)
 
 server = WebServer.new
 server.run
